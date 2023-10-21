@@ -1,0 +1,14 @@
+The projected involved using some dependencies such 
+
+-AOS , Animation on scroll library which was used to implement the aninmation for the home page
+-React and React-DOM which was the language used to do the projecte
+-React Error Boundary which was used ti implement the Error Boundary Feature
+-React Icons which was used to get the Icons needed for the project
+-React Router which was used to implement Routes for the pages in the project
+-React Toastify which was used to implement toast for when a user doesnt exist
+
+
+
+Also made use of Dev dependencies such AOS
+-Tailwind Css for the styling
+-EsLint 
