@@ -27,7 +27,7 @@ function App() {
     <>
       <ToastContainer
         position='top-right'
-        autoClose={1500}
+        autoClose={2000}
         theme='dark'
         bodyStyle={{ color: 'yellow' }}
       />

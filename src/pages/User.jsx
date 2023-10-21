@@ -19,7 +19,7 @@ function User() {
       const data = await response.json();
       if (data.message === 'Not Found') {
         navigate('/');
-        toast('user does not exist');
+        toast.error(`${name} does not exist`);
         return;
       }
       setUserInfo(data);

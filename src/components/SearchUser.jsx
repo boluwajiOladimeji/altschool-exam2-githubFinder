@@ -16,6 +16,7 @@ function SearchUser() {
     if (!user) return;
     setCurrentPage(1);
     navigate(`${user}`);
+    setUser('');
   };
 
   return (
