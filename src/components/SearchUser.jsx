@@ -3,7 +3,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import { usePageContext } from '../context/PageContext';
 
 function SearchUser() {
-  const [user, setUser] = useState('');
+  const [user, setUser] = useState('boluwajioladimeji');
   const { setCurrentPage } = usePageContext();
 
   const { name } = useParams();
