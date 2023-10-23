@@ -75,7 +75,7 @@ function Followers() {
       )}
 
       {totalButtons > 1 && totalButtons <= 2 && (
-        <div className=' flex items-center gap-8 justify-center   text-slate-700 mt-8'>
+        <div className=' flex items-center gap-8 justify-center   text-slate-700 mt-8 dark:text-slate-200'>
           <button onClick={() => page > 1 && setPage(1)}>Prev</button>
           <button onClick={() => page === 1 && setPage(2)}>Next</button>
         </div>
@@ -88,7 +88,7 @@ function Followers() {
               <button
                 key={i}
                 onClick={() => setPage(i + 1)}
-                className='bg-slate-700 rounded text-slate-100 w-6 h-6 text-sm  lg:w-10 lg:h-10 dark:bg-slate-800'
+                className='bg-slate-700 rounded text-slate-200 w-6 h-6 text-sm  lg:w-10 lg:h-10 dark:bg-slate-800'
               >
                 {i + 1}
               </button>
