@@ -33,7 +33,7 @@ function Home() {
             followers. You can simply do this by putting the github username on
             the searchbox and clicking the find user.
           </p>
-          <p className='text-xs max-w-xs'>
+          <p className='text-xs max-w-xs mx-auto'>
             Have a trial with the default username on the searchbox
           </p>
         </div>
