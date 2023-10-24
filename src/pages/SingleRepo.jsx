@@ -125,7 +125,12 @@ function SingleRepo() {
             <span>
               <FaFileCode className='text-2xl' />
             </span>
-            <a href={repoInfo.html_url} target='_blank' rel='noreferrer'>
+            <a
+              href={repoInfo.html_url}
+              target='_blank'
+              rel='noreferrer'
+              className='text-green-600 dark:text-green-300 transition duration-200 ease-in font-bold hover:opacity-80'
+            >
               Check {repoInfo.name} Files on github
             </a>
           </p>
@@ -133,7 +138,12 @@ function SingleRepo() {
             <span>
               <FaGithub className='text-2xl' />
             </span>
-            <a href={repoInfo.owner.html_url} target='_blank' rel='noreferrer'>
+            <a
+              href={repoInfo.owner.html_url}
+              target='_blank'
+              rel='noreferrer'
+              className='text-green-600 font-bold dark:text-green-300 hover:opacity-80 transition duration-200 ease-in'
+            >
               Check {name} profile on github
             </a>
           </p>

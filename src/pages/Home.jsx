@@ -31,7 +31,10 @@ function Home() {
           <p className='text-sm   md:text-center max-w-sm'>
             Your one stop hub to getting github users information, repos and
             followers. You can simply do this by putting the github username on
-            the searchbox
+            the searchbox and clicking the find user.
+          </p>
+          <p className='text-xs max-w-xs'>
+            Have a trial with the default username on the searchbox
           </p>
         </div>
       </div>

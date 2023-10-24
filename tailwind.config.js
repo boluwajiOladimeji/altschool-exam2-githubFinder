@@ -6,7 +6,9 @@ export default {
   darkMode: 'class',
   theme: {
     extend: {
-      keyframes: {},
+      animationDuration: {
+        '2s': '2s',
+      },
     },
   },
   plugins: [],

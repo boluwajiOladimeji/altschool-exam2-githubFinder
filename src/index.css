@@ -4,6 +4,6 @@
 
 @layer components {
   .user .active {
-    @apply text-blue-400 font-bold underline;
+    @apply dark:text-green-600 text-green-300  font-bold underline;
   }
 }

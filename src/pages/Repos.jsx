@@ -54,12 +54,18 @@ function Repos() {
         </p>
         <div className='hidden md:flex gap-20 pr-7'>
           {currentPage > 1 && (
-            <button onClick={() => setCurrentPage((prev) => prev - 1)}>
+            <button
+              className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+              onClick={() => setCurrentPage((prev) => prev - 1)}
+            >
               Prev
             </button>
           )}
           {currentPage < totalPages && (
-            <button onClick={() => setCurrentPage((page) => page + 1)}>
+            <button
+              className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+              onClick={() => setCurrentPage((page) => page + 1)}
+            >
               Next
             </button>
           )}
@@ -77,11 +83,13 @@ function Repos() {
               <Link
                 to={`${repo.name}`}
                 key={repo.id}
-                className='bg-slate-200 rounded dark:bg-slate-800 text-slate-700 dark:text-slate-200 '
+                className='bg-slate-200 rounded dark:bg-slate-800 text-slate-700 dark:text-slate-200  hover:shadow-md hover:shadow-green-900 dark:hover:shadow-green-200 hover:scale-105 transition duration-300 ease-in group '
               >
                 <img src={repoImg} alt='' className='w-full h-20 lg:h-24' />
                 <div className='px-6  pb-2  text-sm'>
-                  <p className='font-bold'>{repo.name}</p>
+                  <p className='font-bold dark:group-hover:text-green-300 group-hover:text-green-600'>
+                    {repo.name}
+                  </p>
                   <p className='text-xs'>
                     Created at: {formatDate(repo.created_at)}
                   </p>
@@ -93,12 +101,18 @@ function Repos() {
       )}
       <div className='md:hidden flex gap-20 pt-5 justify-center'>
         {currentPage > 1 && (
-          <button onClick={() => setCurrentPage((prev) => prev - 1)}>
+          <button
+            className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+            onClick={() => setCurrentPage((prev) => prev - 1)}
+          >
             Prev
           </button>
         )}
         {currentPage < totalPages && (
-          <button onClick={() => setCurrentPage((page) => page + 1)}>
+          <button
+            className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+            onClick={() => setCurrentPage((page) => page + 1)}
+          >
             Next
           </button>
         )}

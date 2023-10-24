@@ -53,16 +53,18 @@ function Followers() {
             return (
               <li
                 key={follower.id}
-                className='bg-slate-200 rounded p-2 dark:bg-slate-800 text-slate-700 dark:text-slate-200 '
+                className='bg-slate-200 rounded p-2 dark:bg-slate-800 text-slate-700 dark:text-slate-200 hover:shadow-md hover:shadow-green-900 dark:hover:shadow-green-200 hover:scale-105 transition duration-300 ease-in group '
               >
-                <a href={follower.html_url} target='_blank' rel='noreferrer'>
+                <a href={follower.html_url} target='_blank' rel='noreferrer '>
                   <img
                     src={follower.avatar_url}
                     alt='follower avatar'
                     className='w-20 h-20 rounded-full lg:h-24 lg:w-24 mx-auto'
                   />
                   <div className=' pt-2   text-center justify-center flex gap-3 text-sm items-center '>
-                    <p>{follower.login}</p>
+                    <p className='dark:group-hover:text-green-300 group-hover:text-green-600'>
+                      {follower.login}
+                    </p>
                     <p>
                       <FaGithub />
                     </p>
@@ -76,8 +78,18 @@ function Followers() {
 
       {totalButtons > 1 && totalButtons <= 2 && (
         <div className=' flex items-center gap-8 justify-center   text-slate-700 mt-8 dark:text-slate-200'>
-          <button onClick={() => page > 1 && setPage(1)}>Prev</button>
-          <button onClick={() => page === 1 && setPage(2)}>Next</button>
+          <button
+            className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+            onClick={() => page > 1 && setPage(1)}
+          >
+            Prev
+          </button>
+          <button
+            className='hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in'
+            onClick={() => page === 1 && setPage(2)}
+          >
+            Next
+          </button>
         </div>
       )}
 
@@ -88,7 +100,7 @@ function Followers() {
               <button
                 key={i}
                 onClick={() => setPage(i + 1)}
-                className='bg-slate-700 rounded text-slate-200 w-6 h-6 text-sm  lg:w-10 lg:h-10 dark:bg-slate-800'
+                className='bg-slate-700 rounded text-slate-200 w-6 h-6 text-sm  lg:w-10 lg:h-10 dark:bg-slate-800 group hover:opacity-90 hover:text-green-300 transition duration-150 ease-in '
               >
                 {i + 1}
               </button>

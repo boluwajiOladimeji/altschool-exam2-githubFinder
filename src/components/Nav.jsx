@@ -13,9 +13,9 @@ function Nav() {
       </div>
       <button className='pr-5' onClick={toggleTheme}>
         {isDarkTheme ? (
-          <BsSunFill className='text-slate-200 text-xl' />
+          <BsSunFill className='text-slate-200 text-xl hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in' />
         ) : (
-          <BsMoonFill className='text-xl' />
+          <BsMoonFill className='text-xl hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in' />
         )}
       </button>
     </nav>
