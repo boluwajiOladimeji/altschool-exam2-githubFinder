@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { AppLogo } from '../components/AppLogo';
 import SearchUser from '../components/SearchUser';
 import { useThemeContext } from '../context/ThemeContext';
@@ -11,6 +12,10 @@ function Nav() {
         <AppLogo />
         <SearchUser />
       </div>
+      <Link to={'about'} className='mr-3'>
+        About
+      </Link>
+
       <button className='pr-5' onClick={toggleTheme}>
         {isDarkTheme ? (
           <BsSunFill className='text-slate-200 text-xl hover:text-green-600 dark:hover:text-green-300 transition duration-200 ease-in' />

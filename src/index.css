@@ -6,4 +6,8 @@
   .user .active {
     @apply dark:text-green-600 text-green-300  font-bold underline;
   }
+
+  .project {
+    @apply text-center shadow-lg hover:scale-105 dark:shadow-none transition duration-300 ease-in;
+  }
 }

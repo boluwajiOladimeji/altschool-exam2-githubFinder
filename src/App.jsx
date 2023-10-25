@@ -20,6 +20,7 @@ import { ThemeContextProvider } from './context/ThemeContext';
 const AppLayout = lazy(() => import('./pages/AppLayout'));
 const Home = lazy(() => import('./pages/Home'));
 const User = lazy(() => import('./pages/User'));
+const About = lazy(() => import('./pages/About'));
 const Error = lazy(() => import('./pages/Error'));
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
                     <Route path='followers' element={<Followers />} />
                     <Route path='following' element={<Following />} />
                   </Route>
+                  <Route path='about' element={<About />} />
                 </Route>
                 <Route path='*' element={<Error />} />
               </Routes>
