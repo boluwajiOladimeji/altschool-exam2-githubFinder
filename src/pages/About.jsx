@@ -2,7 +2,14 @@ function About() {
   return (
     <div className='min-h-[calc(100vh-5rem-50px)] py-6 text-slate-700 bg-slate-50 dark:bg-slate-800 dark:text-slate-200'>
       <div className='w-11/12 max-w-5xl mx-auto'>
-        <h1 className='text-5xl font-bold'>About Me</h1>
+        <h1 className='text-5xl font-bold '>About Me</h1>
+        <div className='max-w-sm   rounded-full my-7 mt-10'>
+          <img
+            src='./my-passport.jpg'
+            alt=''
+            className='rounded-full hover:-translate-y-5 transition duration-200 ease-in'
+          />
+        </div>
         <p className='my-4'>
           My Name is Boluwaji Oladimeji,an aspiring fullstack developer. As they
           say, a journey of a thousand miles starts with a step. My big step
@@ -19,7 +26,6 @@ function About() {
           or teaching assistant some day.). Some of my latest Projects are
           listed below
         </p>
-
         <section className='mt-8'>
           <h2 className='text-center text-3xl font-bold'>
             Similar React Projects
