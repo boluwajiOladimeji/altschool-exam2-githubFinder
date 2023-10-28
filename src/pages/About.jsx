@@ -11,12 +11,16 @@ function About() {
           />
         </div>
         <p className='my-4'>
-          My Name is Boluwaji Oladimeji,an aspiring fullstack developer. As they
-          say, a journey of a thousand miles starts with a step. My big step
-          starts with learning and being a frontend developer using tools like
-          HTML,CSS,Javscript,React,Tailwind Css. I have learnt from awesome
-          instructors such as Oluwasetemi Ojo, Ikenna Ezeani from altschool.
-          Also Insructors like John smilga and Jonas Schmedtmann from udemy.
+          My Name is Boluwaji Oladimeji,an aspiring fullstack developer. I enjoy
+          teaching frontend development as I use time I have to teach peers,
+          colleagues and secondary students how to code. As they say, a journey
+          of a thousand miles starts with a step. My big step started with
+          learning and being a frontend developer using tools like
+          HTML,CSS,Javscript,React,Tailwind Css and React. I have learnt from
+          awesome instructors such as Oluwasetemi Ojo, Ikenna Ezeani from
+          altschool. Also Insructors like John smilga and Jonas Schmedtmann from
+          udemy over the years. My aim to also be an awesome instructor in
+          frontend.
         </p>
 
         <section className='mt-8'>
