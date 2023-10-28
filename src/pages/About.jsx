@@ -18,14 +18,7 @@ function About() {
           instructors such as Oluwasetemi Ojo, Ikenna Ezeani from altschool.
           Also Insructors like John smilga and Jonas Schmedtmann from udemy.
         </p>
-        <p>
-          I enjoy building beautiful applications,providing solutions, learning
-          new technologies while also teaching people how to code from what I
-          have learnt. I plan to become an adequate frontend developer while
-          also being an instructor (I hope to be a part of altschool Instructors
-          or teaching assistant some day.). Some of my latest Projects are
-          listed below
-        </p>
+
         <section className='mt-8'>
           <h2 className='text-center text-3xl font-bold'>
             Similar React Projects
