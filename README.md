@@ -1,5 +1,16 @@
 # React + Vite
 
+<a name="readme-top"></a>
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="./favicon/favicon-32x32.png" alt="logo" width="140"  height="auto" />
+  <br/>
+
+  <h3><b>GithubUser Finder README Template</b></h3>
+
+</div>
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 <!-- Currently, two official plugins are available:
