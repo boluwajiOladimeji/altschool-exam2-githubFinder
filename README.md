@@ -7,16 +7,35 @@
   <img src="./favicon/favicon-32x32.png" alt="logo" width="140"  height="auto" />
   <br/>
 
-  <h3><b>GithubUser Finder README Template</b></h3>
+  <h3><b>GithubUser Finder</b></h3>
 
 </div>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 📗 Table of Contents
 
-<!-- Currently, two official plugins are available:
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh -->
+# 📖 [Github_User_Finder] <a name="about-project"></a>
+
+> This is an application used to fetch github users and their information based on the username. It allows you see their Repo, Followers and much more
 
 This is a fully Functional React app used to fetch github users and informations about the user.
 It was done optimized for both Mobile, Tablet and laptop screens
