@@ -57,13 +57,6 @@ It was built using React and Tailwind
 <details>
 <summary>Routes</summary>
   <ul>
-    <li><a href="https://tailwindcss.com/">React Router</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Routes</summary>
-  <ul>
     <li><a href="https://reactrouter.com/en/main">React Router</a></li>
   </ul>
 </details>
@@ -104,8 +97,8 @@ It was built using React and Tailwind
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/boluwajiOladimeji)
-- Twitter: [@twitterhandle](https://twitter.com/boluelias)
+- GitHub: [@boluwajiOladimeji](https://github.com/boluwajiOladimeji)
+- Twitter: [@boluElias](https://twitter.com/boluelias)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
